@@ -4,9 +4,7 @@
 
 
 <h3>AIM:</h3>
-<br>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
-<br>
 <h3>Theory</h3>
 <h3>Medicine prescribing agent:</h3>
 <p>Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.</p>
@@ -41,7 +39,7 @@
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
-<H4>CODE:</H4>
+<H3>PROGRAM:</H3>
 
   ```
     import random
@@ -79,8 +77,8 @@
     agent.run_agent()
     print("Final Performance Score:", agent.performance)
   ```
-<H5>OUTPUT:</H5>
+<H3>OUTPUT:</H3>
 <img width="651" height="754" alt="image" src="https://github.com/user-attachments/assets/1bab4cd2-d611-4574-9269-c6ee1e73ead7" />
 
-<H1>RUSELT:</H1>
+<h3>RESULT:</h3>
 <p>Thus the AI agent is developed successfully </p>
